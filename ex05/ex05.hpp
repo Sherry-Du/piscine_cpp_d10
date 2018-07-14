@@ -23,7 +23,7 @@ public:
     array<U> re(_size);
     for (unsigned int i = 0; i != _size; i++)
       re[i] = fptr(_array[i]);
-    return ret;
+    return re;
   }
 
   void dump() const;
